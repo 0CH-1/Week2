@@ -45,3 +45,24 @@ if first>second:
 else:
     print("The first number is smallest")
 
+#odd/even counter
+odd_number = 0
+even_number = 0
+first=int(input("Enter the first number: "))
+second=int(input("Enter the second number: "))
+third=int(input("Enter the third number: "))
+if first%2==0:
+    even_number = even_number + 1
+else:
+    odd_number = odd_number + 1
+if second%2==0:
+    even_number = even_number + 1
+else:
+    odd_number = odd_number + 1
+if third%2==0:
+    even_number = even_number + 1
+else:
+    odd_number = odd_number + 1
+print(f"There were {even_number} even numbers and {odd_number} odd numbers.")
+
+
