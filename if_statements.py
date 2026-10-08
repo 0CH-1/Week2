@@ -16,3 +16,18 @@ print("Done!")
 activity=input("Please enter an activity to be performed. ")
 print(f"performing " + activity)
 print("Activity completed!")
+
+#Maze navigation
+direction=input("Towards which direction should I go (up, down, left, or right)? ")
+if direction=="up":
+ print(f"I am moving in upward direction!")
+elif direction=="down":
+    print(f"I am moving in downward direction!")
+elif direction=="left":
+    print(f"I am moving in left direction!")
+elif direction=="right":
+    print(f"I am moving in right direction!")
+else:
+    print(f"I am lost")
+
+
