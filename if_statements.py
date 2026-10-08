@@ -11,3 +11,8 @@ if first>second:
 else:
     print("The first number is equal or smaller!")
 print("Done!")
+
+#Calculating activity
+activity=input("Please enter an activity to be performed. ")
+print(f"performing " + activity)
+print("Activity completed!")
