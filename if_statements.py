@@ -30,4 +30,18 @@ elif direction=="right":
 else:
     print(f"I am lost")
 
+#odd/even
+num=int(input("Enter a number: "))
+if num%2==0:
+    print("The number is even")
+else:
+    print("The number is odd")
+
+#smallest num
+first=int(input("Enter the first number: "))
+second=int(input("Enter the second number: "))
+if first>second:
+    print("The second number is smallest")
+else:
+    print("The first number is smallest")
 
